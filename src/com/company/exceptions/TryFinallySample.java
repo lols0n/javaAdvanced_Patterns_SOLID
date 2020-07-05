@@ -32,7 +32,7 @@ public class TryFinallySample {
         //jest automatycznie zamykany na koncu bloku try-catch
         try(BufferedReader reader = new BufferedReader(new FileReader(filename))) {
 
-        } catch (FileNotFoundException ex) {
+        } catch (FileNotFoundException ex) { //ex czyli exception
             //lapiemy wyjatek z filereader
         } catch (IOException ex){
             //lapiemy wyjatek z BufferedReader
