@@ -16,6 +16,7 @@ public class CarMain {
         truckCar.setColor("Najszybszy czerwony");
         sportCar.setColor("czarny");
         sportCar.setName("Mustang");
+        ferrariCar.setColor("niebieski");
         ferrariCar.setName("ferrari");
         ferrariCar.getName();
 
@@ -25,5 +26,7 @@ public class CarMain {
         System.out.println(sportCar.getName());
         System.out.println(ferrariCar.getColor());
         System.out.println(ferrariCar.getColor(" to nowy kolor"));
+        //test super.getColor()
+        System.out.println(ferrariCar.getModel() + " " + ferrariCar.getOriginalColor());
     }
 }

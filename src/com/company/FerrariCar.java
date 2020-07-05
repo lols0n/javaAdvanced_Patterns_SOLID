@@ -1,5 +1,7 @@
 package com.company;
 
+import java.security.PublicKey;
+
 public class FerrariCar extends SportCar {
     private String  model;
 
@@ -25,5 +27,11 @@ public class FerrariCar extends SportCar {
 
     public String getColor(String addon) { //podmienia kolor i umozliwia dodanie tekstu
         return "red" + addon;
+
+   }
+    //wywolanie metody z nadklasy przez super
+    public String getOriginalColor() {
+        return super.getColor();
+
     }
 }
