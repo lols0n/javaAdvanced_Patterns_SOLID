@@ -11,17 +11,17 @@ public class CarMain {
 
 
         car.setName("bmw");
-        car.setColor("bialy");
+        car.setColor("white");
         truckCar.setName("MAN");
         truckCar.setColor("Najszybszy czerwony");
-        sportCar.setColor("czarny");
+        sportCar.setColor("Black");
         sportCar.setName("Mustang");
         ferrariCar.setColor("niebieski");
         ferrariCar.setName("ferrari");
         ferrariCar.getName();
 
 
-
+        System.out.println(car.getColor());
         System.out.println(truckCar.getName() + " " + truckCar.getColor());
         System.out.println(sportCar.getName());
         System.out.println(ferrariCar.getColor());
