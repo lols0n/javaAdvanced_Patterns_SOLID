@@ -2,9 +2,11 @@ package com.company.serialization;
 
 import java.io.Serializable;
 
-public class SerialPerson implements Serializable { //
+public class SerialPerson implements Serializable { //klasa musi implementowac Serializable
+    //transinet oznacza ze tego pola nie przepychamy
+    //przez serializacje
 
-    private int id;
+    private transient int id;
     private String name;
     private String surname;
     private int age;
@@ -47,5 +49,16 @@ public class SerialPerson implements Serializable { //
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("wywolanie toString:");
+        return "SerialPerson{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
