@@ -1,6 +1,7 @@
 package com.company.abstraction;
 
 import com.company.Person;
+import javafx.animation.Animation;
 
 public class AbstractionAnimalTest {
 
@@ -17,5 +18,11 @@ public class AbstractionAnimalTest {
 
         Penguin penguin = new Penguin();
         penguin.move();
+
+        Ant ant = new Ant();
+        ant.move();
+        ant.hibernate();
+
+
     }
 }
