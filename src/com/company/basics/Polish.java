@@ -1,4 +1,4 @@
-package com.company;
+package com.company.basics;
 
 //dziedziczenie przez slowo extends
 public class Polish extends Person {

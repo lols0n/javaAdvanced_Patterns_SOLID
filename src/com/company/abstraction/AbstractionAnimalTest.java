@@ -1,8 +1,5 @@
 package com.company.abstraction;
 
-import com.company.Person;
-import javafx.animation.Animation;
-
 public class AbstractionAnimalTest {
 
     public  static  void  main(String[] args) { //zielona strzalka zeby odpalic tego maina shift+F10

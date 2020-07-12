@@ -2,7 +2,6 @@ package com.company.collections.lists;
 
 import com.company.collections.Car;
 
-import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

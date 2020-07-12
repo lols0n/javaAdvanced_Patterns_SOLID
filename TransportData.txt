@@ -1,0 +1,18 @@
+Dodać możliwość zaczytania danych dotyczących poszczególnych pojazdów z pliku
+(może być jeden plik, może być więcej, poszczególne pola oddzielać |
+i założenie jest że wszystkie pola są wypełnione)
+
+rozroznienie car/ship/plane
+name
+
+//C|name|kind
+C|P|Volvo V50|Personal
+C|T|MAN|Truck
+
+//S|name|oceanic
+S|P|Titanic|1
+S|T|...|0
+
+//P|name|engine
+P|P|Airbus 380|Turbo
+P|P|Concorde|Jet

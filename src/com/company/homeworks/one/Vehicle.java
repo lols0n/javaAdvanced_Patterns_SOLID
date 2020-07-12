@@ -1,6 +1,6 @@
 package com.company.homeworks.one;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Transport{
 
     private String name;
 

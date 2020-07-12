@@ -1,4 +1,4 @@
-package com.company;
+package com.company.basics;
 
 import com.sun.xml.internal.ws.wsdl.writer.document.http.Address;
 

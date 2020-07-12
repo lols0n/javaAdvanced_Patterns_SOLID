@@ -1,6 +1,4 @@
-package com.company;
-
-import java.security.PublicKey;
+package com.company.basics;
 
 public class FerrariCar extends SportCar {
     private String  model;

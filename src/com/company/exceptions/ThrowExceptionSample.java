@@ -1,6 +1,5 @@
 package com.company.exceptions;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 

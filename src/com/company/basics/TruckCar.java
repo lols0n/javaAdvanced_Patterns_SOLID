@@ -1,4 +1,4 @@
-package com.company;
+package com.company.basics;
 
 public class TruckCar extends Car {
 

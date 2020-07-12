@@ -1,4 +1,4 @@
-package com.company;
+package com.company.basics;
 // package.com.company.more tu nie widac modyfikatora private
 // package.com. tu nie widac modyfikatora private
 public class Car {

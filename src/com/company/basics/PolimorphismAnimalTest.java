@@ -1,4 +1,4 @@
-package com.company;
+package com.company.basics;
 
 import com.company.abstraction.AbstractionAnimal;
 import com.company.abstraction.Bee;

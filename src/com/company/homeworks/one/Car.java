@@ -7,4 +7,6 @@ public class Car extends Vehicle{
         super(name);
         this.kind = kind;
     }
+
+
 }
