@@ -1,4 +1,4 @@
-import com.company.basics.Calculator;
+import com.company.javaAdvenced.basics.Calculator;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

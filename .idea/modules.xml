@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaAdvanced.iml" filepath="$PROJECT_DIR$/javaAdvanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaAdvanced_Patterns_SOLID.iml" filepath="$PROJECT_DIR$/javaAdvanced_Patterns_SOLID.iml" />
     </modules>
   </component>
 </project>

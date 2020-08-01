@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaAdvanced" />
+        <module name="javaAdvanced_Patterns_SOLID" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaAdvanced" target="1.8" />
+      <module name="javaAdvanced_Patterns_SOLID" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
